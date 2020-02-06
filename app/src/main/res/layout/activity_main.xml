@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#F83F03"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="name" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:textColor="#F83F03"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:ems="10"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:layout_marginTop="20dp"
+            android:textColor="#F83F03"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:hint="phone"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginTop="20dp"
+            android:textColor="#F83F03"
+            android:padding="10dp"
+            android:textStyle="italic"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</layout>
